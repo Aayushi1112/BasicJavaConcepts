@@ -1,0 +1,20 @@
+package stream;
+
+import java.util.ArrayList;
+
+public class StreamCompare {
+	
+	public static void main(String args[]) {
+	
+	ArrayList<Integer> al=new ArrayList<>();
+	al.add(10);
+	al.add(20);
+	al.add(30);
+	al.add(12);
+	System.out.println(al);
+	
+			Boolean a=al.stream().allMatch(i->i>9);
+			System.out.println(a);
+
+}
+}

@@ -1,0 +1,21 @@
+package consumer;
+
+import java.util.function.Consumer;
+class Movie{
+	String name;
+	String result;
+	public Movie(String name, String result) {
+		super();
+		this.name = name;
+		this.result = result;
+	}
+	
+}
+public class ConsumerExample {
+	public static void main(String args[]) {
+		Consumer<String> c=s->System.out.println(s);
+		c.accept("Heloo");
+		
+	}
+
+}

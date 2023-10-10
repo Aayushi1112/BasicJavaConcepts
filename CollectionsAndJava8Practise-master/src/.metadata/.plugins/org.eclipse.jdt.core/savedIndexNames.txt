@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+D:\Practise Projects\CollectionsPractise\.metadata\.plugins\org.eclipse.jdt.core
+530895286.index
+4232182409.index
+1865797976.index
+109628854.index

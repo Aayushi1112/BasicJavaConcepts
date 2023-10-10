@@ -1,0 +1,33 @@
+package comparatorAndComparable;
+
+public class Movie implements Comparable<Movie> {
+	private String name;
+	private double rating;
+	private int year;
+
+	
+
+	public Movie(String name, double rating, int year) {
+		super();
+		this.name = name;
+		this.rating = rating;
+		this.year = year;
+	}
+
+
+
+	//MovieComparableClass
+	public int compareTo(Movie m) {
+	if(this.year>m.year) {
+		return 1;
+	}
+	if(this.year<m.year){
+		return -1;
+	}
+	else 
+		return 0;
+	}
+
+	
+
+}

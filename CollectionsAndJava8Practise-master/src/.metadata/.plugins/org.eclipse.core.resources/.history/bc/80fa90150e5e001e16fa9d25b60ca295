@@ -1,0 +1,6 @@
+package predicate;
+@FunctionalInterface
+public interface Predicater<T> {
+	public boolean test(T t);
+
+}

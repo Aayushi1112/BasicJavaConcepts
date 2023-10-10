@@ -1,0 +1,22 @@
+package comparatorAndComparable;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class MovieComparableClass {
+	public static void main(String args[]) {
+		
+		ArrayList<Movie> al=new ArrayList<Movie>();
+		al.add(new Movie("A",8.9,1995));
+		al.add(new Movie("B",1.2,2020));
+		al.add(new Movie("Z",9.0,1800));
+		al.add(new Movie("K",3.0,2024));
+		
+		al.stream().sorted().forEach(System.out::println);
+//		Collections.sort(al);
+//		for(Movie m:al) {
+//			System.out.println(m);
+//		}
+	}
+
+}

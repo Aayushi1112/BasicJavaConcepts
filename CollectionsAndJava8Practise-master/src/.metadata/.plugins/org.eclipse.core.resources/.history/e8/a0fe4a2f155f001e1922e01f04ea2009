@@ -1,0 +1,10 @@
+package java8practiseproject;
+
+import java.util.ArrayList;
+
+public class StudentProjectMAin {
+	
+	ArrayList<Student> studs=new ArrayList<Student>();
+	populateList();
+
+}

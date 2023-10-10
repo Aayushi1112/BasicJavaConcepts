@@ -1,0 +1,5 @@
+package methodRefernce;
+@FunctionalInterface
+public interface MyFunctionalInterface {
+
+}

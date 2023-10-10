@@ -1,0 +1,7 @@
+package methodRefernce;
+@FunctionalInterface
+public interface MyFunctionalInterface {
+	
+	public int add(int a);
+
+}

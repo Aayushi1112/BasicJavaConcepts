@@ -1,0 +1,6 @@
+package comparatorAndComparable;
+
+public class RatingComparator implements Comparartor{
+	
+
+}

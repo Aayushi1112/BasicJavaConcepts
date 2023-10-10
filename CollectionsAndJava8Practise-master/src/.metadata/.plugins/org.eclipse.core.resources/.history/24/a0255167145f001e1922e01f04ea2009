@@ -1,0 +1,10 @@
+package java8practiseproject;
+
+public class Student {
+	private String name;
+	private int rollno;
+	private int marks;
+	private int age;
+	private String grade;
+
+}

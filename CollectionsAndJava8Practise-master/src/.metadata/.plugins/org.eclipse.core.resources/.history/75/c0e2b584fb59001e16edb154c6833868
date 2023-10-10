@@ -1,0 +1,21 @@
+package packgae1;
+
+import java.util.ArrayList;
+
+public class ArrayList1 {
+	
+	public static void main(String args[]) {
+		ArrayList<String> al=new ArrayList<>();
+		al.add("Abc");
+		al.add("xyz");
+		al.add("asg:");
+		Object[] a=al.toArray();
+		String[] s1=(String[])a;
+		System.out.println(a.toString());
+		System.out.println(a.length);
+		for(Object s:s1) {
+			System.out.println();
+		}
+	}
+
+}

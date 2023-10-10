@@ -1,0 +1,11 @@
+package stream;
+
+public class StreamCompare {
+	
+	public static void main(String args[])
+	
+	ArrayList<Integer> al=new ArrayList<>();
+	l.add(10);
+	
+
+}

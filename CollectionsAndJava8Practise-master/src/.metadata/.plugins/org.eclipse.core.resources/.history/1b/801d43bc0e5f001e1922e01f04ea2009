@@ -1,0 +1,13 @@
+package methodRefernce;
+
+class Hello{
+	public void add(int a) {
+		System.out.println("I will add a");
+	}
+}
+public class MyFunctionalInterfaceDemo {
+	public static void main(String args[]) {
+		
+	}
+
+}
